@@ -1,0 +1,1656 @@
+STOCHASTIC ESTIMATION FOR NETWORK 2
+ESTIMATION SETTINGS
+Number of sub-phases in estimation (phase 2) = 5
+starting a-value in estimation (phase 2) = 0.010000
+Multiplication factor for estimation (phase 2) = 10
+Number of steps in final simulation (phase 3) = 500
+Number of estimation runs = 1
+
+STOCHASTIC APPROXIMATION RUN 1
+
+original statistics:28.000000	17.375000	24.751953	29.000000	818.000000	
+starting parameters:-3.258097	0.000000	0.000000	0.000000	0.000000	
+Phase1 started with the following setup:
+a = 0.010000
+num of steps = 22
+num of iterations in each step = 279.615912
+************************************
+mean statistics in phase1:26.409091	10.187500	10.691051	15.924242	466.818182	
+END PHASE1 parameter:-3.258097	0.000000	0.000000	0.000000	0.000000	
+Phase 2 started
+
+
+Subphase 0 started with a valued 0.010000
+
+Subphase 0 has gone up to 212 steps
+Parameter after Subphase 0:-5.33950	 0.47950	 1.24345	 0.31152	 0.00653	
+
+
+Subphase 1 started with a valued 0.010000
+
+Subphase 1 has gone up to 231 steps
+Parameter after Subphase 1:-5.23906	 0.61211	 1.55685	-0.11238	 0.00544	
+
+
+Subphase 2 started with a valued 0.005000
+
+Subphase 2 has gone up to 277 steps
+Parameter after Subphase 2:-5.29980	 0.65959	 1.53429	-0.08338	 0.00572	
+
+
+Subphase 3 started with a valued 0.002500
+
+Subphase 3 has gone up to 392 steps
+Parameter after Subphase 3:-5.36189	 0.61064	 1.58079	-0.07543	 0.00559	
+
+
+Subphase 4 started with a valued 0.001250
+
+Subphase 4 has gone up to 684 steps
+Parameter after Subphase 4:-5.33861	 0.62895	 1.58337	-0.08641	 0.00537	
+END PHASE2 parameter:-5.338613	0.628949	1.583367	-0.086414	0.005368	
+Phase3 started with the following setup:
+num of steps = 500
+num of iterations in each step = 279.615912
+***************************************
+mean statistics in phase3:30.060000	21.107063	28.698957	36.324813	864.652000	
+
+Estimation Result for Network SUMMARY (parameter, standard error, t-statistics)
+NOTE: t-statistics = (observation - sample mean)/standard error
+effects	estimates	stderr	t-ratio
+arc	-5.338613	0.35652	-0.08768	*
+AinS(2.00)	0.628949	0.35269	-0.14749	
+AoutS(2.00)	1.583367	0.35116	-0.13366	
+A2P-TDU(2.00)	-0.086414	0.22305	-0.16332	
+datamen_receiver	0.005368	0.00410	-0.06706	
+
+
+Estimated Covariance Matrix
+0.127105	-0.019997	-0.087504	0.011886	-0.000633	
+-0.019997	0.124387	0.003363	-0.058032	-0.000257	
+-0.087504	0.003363	0.123312	-0.038726	0.000098	
+0.011886	-0.058032	-0.038726	0.049751	0.000171	
+-0.000633	-0.000257	0.000098	0.000171	0.000017	
+
+
+
+STOCHASTIC ESTIMATION FOR NETWORK 2
+ESTIMATION SETTINGS
+Number of sub-phases in estimation (phase 2) = 5
+starting a-value in estimation (phase 2) = 0.010000
+Multiplication factor for estimation (phase 2) = 10
+Number of steps in final simulation (phase 3) = 500
+Number of estimation runs = 10
+
+STOCHASTIC APPROXIMATION RUN 1
+
+original statistics:28.000000	17.375000	24.751953	29.000000	818.000000	
+starting parameters:-3.258097	0.000000	0.000000	0.000000	0.000000	
+Phase1 started with the following setup:
+a = 0.010000
+num of steps = 22
+num of iterations in each step = 279.615912
+************************************
+mean statistics in phase1:32.409091	14.170455	15.646307	23.174242	636.272727	
+END PHASE1 parameter:-3.258097	0.000000	0.000000	0.000000	0.000000	
+Phase 2 started
+
+
+Subphase 0 started with a valued 0.010000
+
+Subphase 0 has gone up to 212 steps
+Parameter after Subphase 0:-5.20276	 0.63451	 1.25955	 0.14506	 0.00300	
+
+
+Subphase 1 started with a valued 0.010000
+
+Subphase 1 has gone up to 231 steps
+Parameter after Subphase 1:-5.32294	 0.63831	 1.38999	 0.02834	 0.00451	
+
+
+Subphase 2 started with a valued 0.005000
+
+Subphase 2 has gone up to 277 steps
+Parameter after Subphase 2:-5.25219	 0.67497	 1.43731	-0.05276	 0.00428	
+
+
+Subphase 3 started with a valued 0.002500
+
+Subphase 3 has gone up to 392 steps
+Parameter after Subphase 3:-5.41736	 0.71608	 1.46346	 0.00195	 0.00357	
+
+
+Subphase 4 started with a valued 0.001250
+
+Subphase 4 has gone up to 684 steps
+Parameter after Subphase 4:-5.26488	 0.67500	 1.47709	-0.09226	 0.00522	
+END PHASE2 parameter:-5.264884	0.674999	1.477087	-0.092258	0.005215	
+Phase3 started with the following setup:
+num of steps = 500
+num of iterations in each step = 279.615912
+***************************************
+mean statistics in phase3:23.922000	12.847063	18.426664	19.949062	662.674000	
+
+Estimation Result for Network SUMMARY (parameter, standard error, t-statistics)
+NOTE: t-statistics = (observation - sample mean)/standard error
+effects	estimates	stderr	t-ratio
+arc	-5.264884	0.44922	0.40972	
+AinS(2.00)	0.674999	0.43075	0.49958	
+AoutS(2.00)	1.477087	0.40926	0.55147	
+A2P-TDU(2.00)	-0.092258	0.36058	0.62115	
+datamen_receiver	0.005215	0.00436	0.45257	
+
+
+Estimated Covariance Matrix
+0.201802	-0.085222	-0.085444	-0.009532	-0.000407	
+-0.085222	0.185545	0.036437	-0.076286	-0.000359	
+-0.085444	0.036437	0.167492	-0.096950	0.000200	
+-0.009532	-0.076286	-0.096950	0.130016	0.000015	
+-0.000407	-0.000359	0.000200	0.000015	0.000019	
+
+
+
+STOCHASTIC APPROXIMATION RUN 2
+
+original statistics:28.000000	17.375000	24.751953	29.000000	818.000000	
+starting parameters:-5.264884	0.674999	1.477087	-0.092258	0.005215	
+Phase1 started with the following setup:
+a = 0.010000
+num of steps = 22
+num of iterations in each step = 279.615912
+************************************
+mean statistics in phase1:27.227273	14.678977	20.034801	23.350379	945.954545	
+END PHASE1 parameter:-5.264884	0.674999	1.477087	-0.092258	0.005215	
+Phase 2 started
+
+
+Subphase 0 started with a valued 0.010000
+
+Subphase 0 has gone up to 212 steps
+Parameter after Subphase 0:-5.19607	 0.51500	 1.45939	-0.02323	 0.00570	
+
+
+Subphase 1 started with a valued 0.010000
+
+Subphase 1 has gone up to 231 steps
+Parameter after Subphase 1:-5.42779	 0.67304	 1.58309	-0.10459	 0.00694	
+
+
+Subphase 2 started with a valued 0.005000
+
+Subphase 2 has gone up to 277 steps
+Parameter after Subphase 2:-5.30289	 0.62485	 1.51156	-0.05762	 0.00599	
+
+
+Subphase 3 started with a valued 0.002500
+
+Subphase 3 has gone up to 392 steps
+Parameter after Subphase 3:-5.39988	 0.68857	 1.56362	-0.11509	 0.00545	
+
+
+Subphase 4 started with a valued 0.001250
+
+Subphase 4 has gone up to 684 steps
+Parameter after Subphase 4:-5.32651	 0.64505	 1.52469	-0.06915	 0.00547	
+END PHASE2 parameter:-5.326515	0.645053	1.524690	-0.069148	0.005471	
+Phase3 started with the following setup:
+num of steps = 500
+num of iterations in each step = 279.615912
+***************************************
+mean statistics in phase3:32.824000	22.671547	30.306201	37.990854	942.646000	
+
+Estimation Result for Network SUMMARY (parameter, standard error, t-statistics)
+NOTE: t-statistics = (observation - sample mean)/standard error
+effects	estimates	stderr	t-ratio
+arc	-5.326515	0.37043	-0.25190	
+AinS(2.00)	0.645053	0.32454	-0.23746	
+AoutS(2.00)	1.524690	0.31009	-0.22435	
+A2P-TDU(2.00)	-0.069148	0.19627	-0.23059	
+datamen_receiver	0.005471	0.00421	-0.22104	
+
+
+Estimated Covariance Matrix
+0.137216	-0.038381	-0.073052	0.005331	-0.000305	
+-0.038381	0.105328	0.006978	-0.040569	-0.000378	
+-0.073052	0.006978	0.096153	-0.029861	0.000070	
+0.005331	-0.040569	-0.029861	0.038521	0.000090	
+-0.000305	-0.000378	0.000070	0.000090	0.000018	
+
+
+
+STOCHASTIC APPROXIMATION RUN 3
+
+original statistics:28.000000	17.375000	24.751953	29.000000	818.000000	
+starting parameters:-5.326515	0.645053	1.524690	-0.069148	0.005471	
+Phase1 started with the following setup:
+a = 0.010000
+num of steps = 22
+num of iterations in each step = 279.615912
+************************************
+mean statistics in phase1:27.181818	14.443182	20.878196	23.748106	926.318182	
+END PHASE1 parameter:-5.326515	0.645053	1.524690	-0.069148	0.005471	
+Phase 2 started
+
+
+Subphase 0 started with a valued 0.010000
+
+Subphase 0 has gone up to 212 steps
+Parameter after Subphase 0:-5.47265	 0.73532	 1.47804	 0.08051	 0.00516	
+
+
+Subphase 1 started with a valued 0.010000
+
+Subphase 1 has gone up to 231 steps
+Parameter after Subphase 1:-5.41057	 0.70651	 1.57856	-0.10343	 0.00624	
+
+
+Subphase 2 started with a valued 0.005000
+
+Subphase 2 has gone up to 277 steps
+Parameter after Subphase 2:-5.34561	 0.69553	 1.52879	-0.08257	 0.00537	
+
+
+Subphase 3 started with a valued 0.002500
+
+Subphase 3 has gone up to 392 steps
+Parameter after Subphase 3:-5.33105	 0.66956	 1.53330	-0.10548	 0.00475	
+
+
+Subphase 4 started with a valued 0.001250
+
+Subphase 4 has gone up to 684 steps
+Parameter after Subphase 4:-5.30753	 0.64514	 1.51381	-0.06760	 0.00503	
+END PHASE2 parameter:-5.307528	0.645141	1.513808	-0.067603	0.005030	
+Phase3 started with the following setup:
+num of steps = 500
+num of iterations in each step = 279.615912
+***************************************
+mean statistics in phase3:36.720000	27.975523	35.750295	47.728500	968.982000	
+
+Estimation Result for Network SUMMARY (parameter, standard error, t-statistics)
+NOTE: t-statistics = (observation - sample mean)/standard error
+effects	estimates	stderr	t-ratio
+arc	-5.307528	0.34451	-0.35743	
+AinS(2.00)	0.645141	0.34323	-0.37455	
+AoutS(2.00)	1.513808	0.33714	-0.34524	
+A2P-TDU(2.00)	-0.067603	0.18316	-0.35901	
+datamen_receiver	0.005030	0.00403	-0.21697	
+
+
+Estimated Covariance Matrix
+0.118689	-0.048431	-0.081752	0.024647	-0.000280	
+-0.048431	0.117806	0.009024	-0.043524	-0.000261	
+-0.081752	0.009024	0.113661	-0.036201	0.000002	
+0.024647	-0.043524	-0.036201	0.033548	0.000069	
+-0.000280	-0.000261	0.000002	0.000069	0.000016	
+
+
+
+STOCHASTIC APPROXIMATION RUN 4
+
+original statistics:28.000000	17.375000	24.751953	29.000000	818.000000	
+starting parameters:-5.307528	0.645141	1.513808	-0.067603	0.005030	
+Phase1 started with the following setup:
+a = 0.010000
+num of steps = 22
+num of iterations in each step = 279.615912
+************************************
+mean statistics in phase1:28.636364	14.678977	24.574574	26.551136	841.136364	
+END PHASE1 parameter:-5.307528	0.645141	1.513808	-0.067603	0.005030	
+Phase 2 started
+
+
+Subphase 0 started with a valued 0.010000
+
+Subphase 0 has gone up to 212 steps
+Parameter after Subphase 0:-5.34366	 0.82416	 1.69034	-0.16857	 0.00371	
+
+
+Subphase 1 started with a valued 0.010000
+
+Subphase 1 has gone up to 231 steps
+Parameter after Subphase 1:-5.38609	 0.72925	 1.58238	-0.13846	 0.00476	
+
+
+Subphase 2 started with a valued 0.005000
+
+Subphase 2 has gone up to 277 steps
+Parameter after Subphase 2:-5.25114	 0.63321	 1.58592	-0.13101	 0.00568	
+
+
+Subphase 3 started with a valued 0.002500
+
+Subphase 3 has gone up to 392 steps
+Parameter after Subphase 3:-5.37735	 0.64356	 1.56247	-0.09158	 0.00597	
+
+
+Subphase 4 started with a valued 0.001250
+
+Subphase 4 has gone up to 684 steps
+Parameter after Subphase 4:-5.33816	 0.63588	 1.53238	-0.08535	 0.00564	
+END PHASE2 parameter:-5.338158	0.635884	1.532379	-0.085354	0.005640	
+Phase3 started with the following setup:
+num of steps = 500
+num of iterations in each step = 279.615912
+***************************************
+mean statistics in phase3:18.034000	8.152437	12.728016	12.879750	555.954000	
+
+Estimation Result for Network SUMMARY (parameter, standard error, t-statistics)
+NOTE: t-statistics = (observation - sample mean)/standard error
+effects	estimates	stderr	t-ratio
+arc	-5.338158	0.45396	1.05867	
+AinS(2.00)	0.635884	0.49847	1.23313	
+AoutS(2.00)	1.532379	0.45018	1.22548	
+A2P-TDU(2.00)	-0.085354	0.46114	1.41078	
+datamen_receiver	0.005640	0.00499	0.67781	
+
+
+Estimated Covariance Matrix
+0.206079	-0.068500	-0.097624	-0.028046	-0.000396	
+-0.068500	0.248469	0.049931	-0.123071	-0.000689	
+-0.097624	0.049931	0.202662	-0.125763	0.000131	
+-0.028046	-0.123071	-0.125763	0.212647	-0.000061	
+-0.000396	-0.000689	0.000131	-0.000061	0.000025	
+
+
+
+STOCHASTIC APPROXIMATION RUN 5
+
+original statistics:28.000000	17.375000	24.751953	29.000000	818.000000	
+starting parameters:-5.338158	0.635884	1.532379	-0.085354	0.005640	
+Phase1 started with the following setup:
+a = 0.010000
+num of steps = 22
+num of iterations in each step = 279.615912
+************************************
+mean statistics in phase1:25.818182	12.309659	20.698153	21.285985	801.227273	
+END PHASE1 parameter:-5.338158	0.635884	1.532379	-0.085354	0.005640	
+Phase 2 started
+
+
+Subphase 0 started with a valued 0.010000
+
+Subphase 0 has gone up to 212 steps
+Parameter after Subphase 0:-5.23894	 0.70608	 1.69029	-0.17126	 0.00481	
+
+
+Subphase 1 started with a valued 0.010000
+
+Subphase 1 has gone up to 231 steps
+Parameter after Subphase 1:-5.51206	 0.74658	 1.54843	-0.05734	 0.00447	
+
+
+Subphase 2 started with a valued 0.005000
+
+Subphase 2 has gone up to 277 steps
+Parameter after Subphase 2:-5.29240	 0.66457	 1.63471	-0.18395	 0.00607	
+
+
+Subphase 3 started with a valued 0.002500
+
+Subphase 3 has gone up to 392 steps
+Parameter after Subphase 3:-5.39680	 0.66939	 1.59955	-0.13125	 0.00589	
+
+
+Subphase 4 started with a valued 0.001250
+
+Subphase 4 has gone up to 684 steps
+Parameter after Subphase 4:-5.35313	 0.68099	 1.58637	-0.14921	 0.00552	
+END PHASE2 parameter:-5.353126	0.680994	1.586370	-0.149212	0.005521	
+Phase3 started with the following setup:
+num of steps = 500
+num of iterations in each step = 279.615912
+***************************************
+mean statistics in phase3:18.314000	8.713313	13.077203	13.595208	559.854000	
+
+Estimation Result for Network SUMMARY (parameter, standard error, t-statistics)
+NOTE: t-statistics = (observation - sample mean)/standard error
+effects	estimates	stderr	t-ratio
+arc	-5.353126	0.45789	0.89955	
+AinS(2.00)	0.680994	0.50664	0.97381	
+AoutS(2.00)	1.586370	0.46117	1.02719	
+A2P-TDU(2.00)	-0.149212	0.38390	1.07687	
+datamen_receiver	0.005521	0.00526	0.61235	
+
+
+Estimated Covariance Matrix
+0.209660	-0.082971	-0.126389	0.012601	-0.000651	
+-0.082971	0.256687	0.049071	-0.113691	-0.000730	
+-0.126389	0.049071	0.212682	-0.108637	0.000246	
+0.012601	-0.113691	-0.108637	0.147378	0.000019	
+-0.000651	-0.000730	0.000246	0.000019	0.000028	
+
+
+
+STOCHASTIC APPROXIMATION RUN 6
+
+original statistics:28.000000	17.375000	24.751953	29.000000	818.000000	
+starting parameters:-5.353126	0.680994	1.586370	-0.149212	0.005521	
+Phase1 started with the following setup:
+a = 0.010000
+num of steps = 22
+num of iterations in each step = 279.615912
+************************************
+mean statistics in phase1:25.181818	11.980114	20.002131	19.937500	744.681818	
+END PHASE1 parameter:-5.353126	0.680994	1.586370	-0.149212	0.005521	
+Phase 2 started
+
+
+Subphase 0 started with a valued 0.010000
+
+Subphase 0 has gone up to 212 steps
+Parameter after Subphase 0:-5.30582	 0.74972	 1.68712	-0.16954	 0.00443	
+
+
+Subphase 1 started with a valued 0.010000
+
+Subphase 1 has gone up to 231 steps
+Parameter after Subphase 1:-5.48079	 0.81409	 1.62891	-0.12191	 0.00405	
+
+
+Subphase 2 started with a valued 0.005000
+
+Subphase 2 has gone up to 277 steps
+Parameter after Subphase 2:-5.33341	 0.73376	 1.58767	-0.13314	 0.00524	
+
+
+Subphase 3 started with a valued 0.002500
+
+Subphase 3 has gone up to 392 steps
+Parameter after Subphase 3:-5.36766	 0.65102	 1.56285	-0.11712	 0.00617	
+
+
+Subphase 4 started with a valued 0.001250
+
+Subphase 4 has gone up to 684 steps
+Parameter after Subphase 4:-5.32677	 0.65308	 1.56223	-0.12588	 0.00580	
+END PHASE2 parameter:-5.326775	0.653078	1.562226	-0.125878	0.005800	
+Phase3 started with the following setup:
+num of steps = 500
+num of iterations in each step = 279.615912
+***************************************
+mean statistics in phase3:18.596000	8.586266	13.335047	13.349000	584.196000	
+
+Estimation Result for Network SUMMARY (parameter, standard error, t-statistics)
+NOTE: t-statistics = (observation - sample mean)/standard error
+effects	estimates	stderr	t-ratio
+arc	-5.326775	0.46255	1.00697	
+AinS(2.00)	0.653078	0.47923	1.15125	
+AoutS(2.00)	1.562226	0.42576	1.15002	
+A2P-TDU(2.00)	-0.125878	0.45571	1.38017	
+datamen_receiver	0.005800	0.00484	0.58946	
+
+
+Estimated Covariance Matrix
+0.213948	-0.067489	-0.087110	-0.040341	-0.000427	
+-0.067489	0.229658	0.045312	-0.112201	-0.000684	
+-0.087110	0.045312	0.181268	-0.115294	0.000077	
+-0.040341	-0.112201	-0.115294	0.207671	0.000039	
+-0.000427	-0.000684	0.000077	0.000039	0.000023	
+
+
+
+STOCHASTIC APPROXIMATION RUN 7
+
+original statistics:28.000000	17.375000	24.751953	29.000000	818.000000	
+starting parameters:-5.326775	0.653078	1.562226	-0.125878	0.005800	
+Phase1 started with the following setup:
+a = 0.010000
+num of steps = 22
+num of iterations in each step = 279.615912
+************************************
+mean statistics in phase1:25.227273	11.892045	19.854403	20.028409	759.636364	
+END PHASE1 parameter:-5.326775	0.653078	1.562226	-0.125878	0.005800	
+Phase 2 started
+
+
+Subphase 0 started with a valued 0.010000
+
+Subphase 0 has gone up to 212 steps
+Parameter after Subphase 0:-5.56505	 0.70169	 1.56173	 0.04570	 0.00583	
+
+
+Subphase 1 started with a valued 0.010000
+
+Subphase 1 has gone up to 231 steps
+Parameter after Subphase 1:-5.43280	 0.69956	 1.60170	-0.11797	 0.00541	
+
+
+Subphase 2 started with a valued 0.005000
+
+Subphase 2 has gone up to 277 steps
+Parameter after Subphase 2:-5.32130	 0.69183	 1.60758	-0.11409	 0.00497	
+
+
+Subphase 3 started with a valued 0.002500
+
+Subphase 3 has gone up to 392 steps
+Parameter after Subphase 3:-5.38840	 0.65275	 1.56900	-0.10414	 0.00612	
+
+
+Subphase 4 started with a valued 0.001250
+
+Subphase 4 has gone up to 684 steps
+Parameter after Subphase 4:-5.38073	 0.65864	 1.56525	-0.11748	 0.00602	
+END PHASE2 parameter:-5.380728	0.658644	1.565250	-0.117480	0.006024	
+Phase3 started with the following setup:
+num of steps = 500
+num of iterations in each step = 279.615912
+***************************************
+mean statistics in phase3:14.514000	5.746437	9.706250	8.982333	513.458000	
+
+Estimation Result for Network SUMMARY (parameter, standard error, t-statistics)
+NOTE: t-statistics = (observation - sample mean)/standard error
+effects	estimates	stderr	t-ratio
+arc	-5.380728	0.59096	1.77607	
+AinS(2.00)	0.658644	0.59198	2.14862	
+AoutS(2.00)	1.565250	0.51105	1.85527	
+A2P-TDU(2.00)	-0.117480	0.51245	2.27910	
+datamen_receiver	0.006024	0.00583	0.86996	
+
+
+Estimated Covariance Matrix
+0.349238	-0.135383	-0.162720	-0.031391	-0.001084	
+-0.135383	0.350443	0.085768	-0.134289	-0.000914	
+-0.162720	0.085768	0.261173	-0.161778	0.000492	
+-0.031391	-0.134289	-0.161778	0.262609	-0.000128	
+-0.001084	-0.000914	0.000492	-0.000128	0.000034	
+
+
+
+STOCHASTIC APPROXIMATION RUN 8
+
+original statistics:28.000000	17.375000	24.751953	29.000000	818.000000	
+starting parameters:-5.380728	0.658644	1.565250	-0.117480	0.006024	
+Phase1 started with the following setup:
+a = 0.010000
+num of steps = 22
+num of iterations in each step = 279.615912
+************************************
+mean statistics in phase1:36.772727	25.480114	31.865057	36.381629	1426.863636	
+END PHASE1 parameter:-5.380728	0.658644	1.565250	-0.117480	0.006024	
+Phase 2 started
+
+
+Subphase 0 started with a valued 0.010000
+
+Subphase 0 has gone up to 212 steps
+Parameter after Subphase 0:-4.93440	 0.69528	 1.26806	 0.01993	 0.00246	
+
+
+Subphase 1 started with a valued 0.010000
+
+Subphase 1 has gone up to 231 steps
+Parameter after Subphase 1:-5.40268	 0.72355	 1.52627	-0.06118	 0.00409	
+
+
+Subphase 2 started with a valued 0.005000
+
+Subphase 2 has gone up to 277 steps
+Parameter after Subphase 2:-5.26609	 0.66104	 1.51379	-0.08702	 0.00457	
+
+
+Subphase 3 started with a valued 0.002500
+
+Subphase 3 has gone up to 392 steps
+Parameter after Subphase 3:-5.31244	 0.65088	 1.51253	-0.04400	 0.00493	
+
+
+Subphase 4 started with a valued 0.001250
+
+Subphase 4 has gone up to 684 steps
+Parameter after Subphase 4:-5.32492	 0.60857	 1.58032	-0.08960	 0.00572	
+END PHASE2 parameter:-5.324923	0.608570	1.580323	-0.089598	0.005722	
+Phase3 started with the following setup:
+num of steps = 500
+num of iterations in each step = 279.615912
+***************************************
+mean statistics in phase3:19.464000	8.927281	15.002344	14.851625	635.928000	
+
+Estimation Result for Network SUMMARY (parameter, standard error, t-statistics)
+NOTE: t-statistics = (observation - sample mean)/standard error
+effects	estimates	stderr	t-ratio
+arc	-5.324923	0.52289	0.89167	
+AinS(2.00)	0.608570	0.47864	1.10980	
+AoutS(2.00)	1.580323	0.43810	0.89476	
+A2P-TDU(2.00)	-0.089598	0.42372	1.12198	
+datamen_receiver	0.005722	0.00503	0.47029	
+
+
+Estimated Covariance Matrix
+0.273414	-0.080538	-0.122845	-0.032933	-0.000738	
+-0.080538	0.229095	0.053926	-0.103345	-0.000561	
+-0.122845	0.053926	0.191932	-0.107777	0.000251	
+-0.032933	-0.103345	-0.107777	0.179542	0.000014	
+-0.000738	-0.000561	0.000251	0.000014	0.000025	
+
+
+
+STOCHASTIC APPROXIMATION RUN 9
+
+original statistics:28.000000	17.375000	24.751953	29.000000	818.000000	
+starting parameters:-5.324923	0.608570	1.580323	-0.089598	0.005722	
+Phase1 started with the following setup:
+a = 0.010000
+num of steps = 22
+num of iterations in each step = 279.615912
+************************************
+mean statistics in phase1:40.136364	28.105114	37.047141	43.559659	1456.318182	
+END PHASE1 parameter:-5.324923	0.608570	1.580323	-0.089598	0.005722	
+Phase 2 started
+
+
+Subphase 0 started with a valued 0.010000
+
+Subphase 0 has gone up to 212 steps
+Parameter after Subphase 0:-4.76455	 0.63910	 1.31567	-0.12159	 0.00245	
+
+
+Subphase 1 started with a valued 0.010000
+
+Subphase 1 has gone up to 231 steps
+Parameter after Subphase 1:-5.44054	 0.75131	 1.48054	-0.01719	 0.00387	
+
+
+Subphase 2 started with a valued 0.005000
+
+Subphase 2 has gone up to 277 steps
+Parameter after Subphase 2:-5.21774	 0.66161	 1.46875	-0.06474	 0.00423	
+
+
+Subphase 3 started with a valued 0.002500
+
+Subphase 3 has gone up to 392 steps
+Parameter after Subphase 3:-5.28324	 0.64197	 1.53450	-0.09089	 0.00489	
+
+
+Subphase 4 started with a valued 0.001250
+
+Subphase 4 has gone up to 684 steps
+Parameter after Subphase 4:-5.35892	 0.65095	 1.55250	-0.07589	 0.00515	
+END PHASE2 parameter:-5.358920	0.650950	1.552500	-0.075886	0.005154	
+Phase3 started with the following setup:
+num of steps = 500
+num of iterations in each step = 279.615912
+***************************************
+mean statistics in phase3:17.072000	7.510375	12.538813	12.290125	560.370000	
+
+Estimation Result for Network SUMMARY (parameter, standard error, t-statistics)
+NOTE: t-statistics = (observation - sample mean)/standard error
+effects	estimates	stderr	t-ratio
+arc	-5.358920	0.53309	1.21442	
+AinS(2.00)	0.650950	0.53279	1.39486	
+AoutS(2.00)	1.552500	0.48921	1.20798	
+A2P-TDU(2.00)	-0.075886	0.44303	1.39536	
+datamen_receiver	0.005154	0.00508	0.66552	
+
+
+Estimated Covariance Matrix
+0.284185	-0.105328	-0.156824	0.006411	-0.000906	
+-0.105328	0.283869	0.086339	-0.137695	-0.000618	
+-0.156824	0.086339	0.239324	-0.142175	0.000429	
+0.006411	-0.137695	-0.142175	0.196277	-0.000027	
+-0.000906	-0.000618	0.000429	-0.000027	0.000026	
+
+
+
+STOCHASTIC APPROXIMATION RUN 10
+
+original statistics:28.000000	17.375000	24.751953	29.000000	818.000000	
+starting parameters:-5.358920	0.650950	1.552500	-0.075886	0.005154	
+Phase1 started with the following setup:
+a = 0.010000
+num of steps = 22
+num of iterations in each step = 279.615912
+************************************
+mean statistics in phase1:39.772727	27.866477	36.419300	42.923295	1449.818182	
+END PHASE1 parameter:-5.358920	0.650950	1.552500	-0.075886	0.005154	
+Phase 2 started
+
+
+Subphase 0 started with a valued 0.010000
+
+Subphase 0 has gone up to 212 steps
+Parameter after Subphase 0:-4.84222	 0.69267	 1.27594	-0.07727	 0.00122	
+
+
+Subphase 1 started with a valued 0.010000
+
+Subphase 1 has gone up to 231 steps
+Parameter after Subphase 1:-5.39331	 0.69354	 1.49640	-0.02186	 0.00450	
+
+
+Subphase 2 started with a valued 0.005000
+
+Subphase 2 has gone up to 277 steps
+Parameter after Subphase 2:-5.21162	 0.62361	 1.50636	-0.08185	 0.00454	
+
+
+Subphase 3 started with a valued 0.002500
+
+Subphase 3 has gone up to 392 steps
+Parameter after Subphase 3:-5.25712	 0.66602	 1.49725	-0.06567	 0.00450	
+
+
+Subphase 4 started with a valued 0.001250
+
+Subphase 4 has gone up to 684 steps
+Parameter after Subphase 4:-5.36266	 0.63407	 1.57787	-0.08315	 0.00561	
+END PHASE2 parameter:-5.362660	0.634070	1.577869	-0.083154	0.005614	
+Phase3 started with the following setup:
+num of steps = 500
+num of iterations in each step = 279.615912
+***************************************
+mean statistics in phase3:18.046000	7.975688	13.640438	13.419542	599.198000	
+
+Estimation Result for Network SUMMARY (parameter, standard error, t-statistics)
+NOTE: t-statistics = (observation - sample mean)/standard error
+effects	estimates	stderr	t-ratio
+arc	-5.362660	0.52201	1.08675	
+AinS(2.00)	0.634070	0.52228	1.30218	
+AoutS(2.00)	1.577869	0.46375	1.05108	
+A2P-TDU(2.00)	-0.083154	0.44906	1.26993	
+datamen_receiver	0.005614	0.00525	0.55235	
+
+
+Estimated Covariance Matrix
+0.272494	-0.094101	-0.133591	-0.008161	-0.000865	
+-0.094101	0.272778	0.074506	-0.128986	-0.000675	
+-0.133591	0.074506	0.215067	-0.136903	0.000431	
+-0.008161	-0.128986	-0.136903	0.201656	-0.000104	
+-0.000865	-0.000675	0.000431	-0.000104	0.000028	
+
+
+
+STOCHASTIC ESTIMATION FOR NETWORK 2
+ESTIMATION SETTINGS
+Number of sub-phases in estimation (phase 2) = 5
+starting a-value in estimation (phase 2) = 0.010000
+Multiplication factor for estimation (phase 2) = 10
+Number of steps in final simulation (phase 3) = 500
+Number of estimation runs = 100
+
+STOCHASTIC APPROXIMATION RUN 1
+
+original statistics:28.000000	17.375000	24.751953	29.000000	818.000000	
+starting parameters:-3.258097	0.000000	0.000000	0.000000	0.000000	
+Phase1 started with the following setup:
+a = 0.010000
+num of steps = 22
+num of iterations in each step = 279.615912
+************************************
+mean statistics in phase1:28.818182	13.440341	12.046165	20.151515	492.363636	
+END PHASE1 parameter:-3.258097	0.000000	0.000000	0.000000	0.000000	
+Phase 2 started
+
+
+Subphase 0 started with a valued 0.010000
+
+Subphase 0 has gone up to 212 steps
+Parameter after Subphase 0:-4.73983	 0.65550	 1.07333	-0.20448	 0.00354	
+
+
+Subphase 1 started with a valued 0.010000
+
+Subphase 1 has gone up to 231 steps
+Parameter after Subphase 1:-5.12003	 0.59871	 1.29429	 0.01862	 0.00472	
+
+
+Subphase 2 started with a valued 0.005000
+
+Subphase 2 has gone up to 277 steps
+Parameter after Subphase 2:-5.25421	 0.66320	 1.38674	 0.02598	 0.00314	
+
+
+Subphase 3 started with a valued 0.002500
+
+Subphase 3 has gone up to 392 steps
+Parameter after Subphase 3:-5.22729	 0.68623	 1.41735	-0.01613	 0.00431	
+
+
+Subphase 4 started with a valued 0.001250
+
+Subphase 4 has gone up to 684 steps
+Parameter after Subphase 4:-5.24024	 0.70118	 1.41674	-0.06195	 0.00462	
+END PHASE2 parameter:-5.240238	0.701183	1.416741	-0.061945	0.004618	
+Phase3 started with the following setup:
+num of steps = 500
+num of iterations in each step = 279.615912
+***************************************
+mean statistics in phase3:25.522000	15.882633	21.481123	26.442135	694.782000	
+
+Estimation Result for Network SUMMARY (parameter, standard error, t-statistics)
+NOTE: t-statistics = (observation - sample mean)/standard error
+effects	estimates	stderr	t-ratio
+arc	-5.240238	0.43241	0.13184	
+AinS(2.00)	0.701183	0.41998	0.07279	
+AoutS(2.00)	1.416741	0.37812	0.14467	
+A2P-TDU(2.00)	-0.061945	0.24808	0.07004	
+datamen_receiver	0.004618	0.00450	0.22910	
+
+
+Estimated Covariance Matrix
+0.186977	-0.076482	-0.108854	0.021858	-0.000548	
+-0.076482	0.176383	0.028318	-0.073571	-0.000245	
+-0.108854	0.028318	0.142971	-0.050952	0.000212	
+0.021858	-0.073571	-0.050952	0.061542	0.000017	
+-0.000548	-0.000245	0.000212	0.000017	0.000020	
+
+
+
+STOCHASTIC APPROXIMATION RUN 2
+
+original statistics:28.000000	17.375000	24.751953	29.000000	818.000000	
+starting parameters:-5.240238	0.701183	1.416741	-0.061945	0.004618	
+Phase1 started with the following setup:
+a = 0.010000
+num of steps = 22
+num of iterations in each step = 279.615912
+************************************
+mean statistics in phase1:27.045455	14.931818	19.836648	21.704545	663.818182	
+END PHASE1 parameter:-5.240238	0.701183	1.416741	-0.061945	0.004618	
+Phase 2 started
+
+
+Subphase 0 started with a valued 0.010000
+
+Subphase 0 has gone up to 212 steps
+Parameter after Subphase 0:-5.40496	 0.71839	 1.38080	 0.05707	 0.00635	
+
+
+Subphase 1 started with a valued 0.010000
+
+Subphase 1 has gone up to 231 steps
+Parameter after Subphase 1:-5.26968	 0.70544	 1.38269	-0.03080	 0.00657	
+
+
+Subphase 2 started with a valued 0.005000
+
+Subphase 2 has gone up to 277 steps
+Parameter after Subphase 2:-5.32767	 0.67166	 1.47878	-0.05705	 0.00514	
+
+
+Subphase 3 started with a valued 0.002500
+
+Subphase 3 has gone up to 392 steps
+Parameter after Subphase 3:-5.29321	 0.68129	 1.47228	-0.04875	 0.00519	
+
+
+Subphase 4 started with a valued 0.001250
+
+Subphase 4 has gone up to 684 steps
+Parameter after Subphase 4:-5.30029	 0.67400	 1.48824	-0.07263	 0.00513	
+END PHASE2 parameter:-5.300289	0.674002	1.488239	-0.072631	0.005135	
+Phase3 started with the following setup:
+num of steps = 500
+num of iterations in each step = 279.615912
+***************************************
+mean statistics in phase3:20.958000	11.182086	16.483109	18.115688	612.144000	
+
+Estimation Result for Network SUMMARY (parameter, standard error, t-statistics)
+NOTE: t-statistics = (observation - sample mean)/standard error
+effects	estimates	stderr	t-ratio
+arc	-5.300289	0.41867	0.51270	
+AinS(2.00)	0.674002	0.43042	0.50408	
+AoutS(2.00)	1.488239	0.44704	0.53756	
+A2P-TDU(2.00)	-0.072631	0.32909	0.53454	
+datamen_receiver	0.005135	0.00497	0.41617	
+
+
+Estimated Covariance Matrix
+0.175282	-0.057868	-0.122049	0.020164	-0.000466	
+-0.057868	0.185259	0.031121	-0.080341	-0.000648	
+-0.122049	0.031121	0.199842	-0.093996	0.000334	
+0.020164	-0.080341	-0.093996	0.108300	-0.000096	
+-0.000466	-0.000648	0.000334	-0.000096	0.000025	
+
+
+
+STOCHASTIC APPROXIMATION RUN 3
+
+original statistics:28.000000	17.375000	24.751953	29.000000	818.000000	
+starting parameters:-5.300289	0.674002	1.488239	-0.072631	0.005135	
+Phase1 started with the following setup:
+a = 0.010000
+num of steps = 22
+num of iterations in each step = 279.615912
+************************************
+mean statistics in phase1:40.681818	28.208807	37.116344	44.160985	1134.500000	
+END PHASE1 parameter:-5.300289	0.674002	1.488239	-0.072631	0.005135	
+Phase 2 started
+
+
+Subphase 0 started with a valued 0.010000
+
+Subphase 0 has gone up to 212 steps
+Parameter after Subphase 0:-5.15010	 0.55129	 1.52294	-0.10457	 0.00630	
+
+
+Subphase 1 started with a valued 0.010000
+
+Subphase 1 has gone up to 231 steps
+Parameter after Subphase 1:-5.33356	 0.66002	 1.52893	-0.09030	 0.00630	
+
+
+Subphase 2 started with a valued 0.005000
+
+Subphase 2 has gone up to 277 steps
+Parameter after Subphase 2:-5.19381	 0.61068	 1.47979	-0.07077	 0.00548	
+
+
+Subphase 3 started with a valued 0.002500
+
+Subphase 3 has gone up to 392 steps
+Parameter after Subphase 3:-5.18012	 0.62396	 1.51526	-0.11843	 0.00581	
+
+
+Subphase 4 started with a valued 0.001250
+
+Subphase 4 has gone up to 684 steps
+Parameter after Subphase 4:-5.25258	 0.64142	 1.51120	-0.08978	 0.00561	
+END PHASE2 parameter:-5.252578	0.641420	1.511199	-0.089775	0.005610	
+Phase3 started with the following setup:
+num of steps = 500
+num of iterations in each step = 279.615912
+***************************************
+mean statistics in phase3:25.660000	15.279031	21.773332	24.842312	760.342000	
+
+Estimation Result for Network SUMMARY (parameter, standard error, t-statistics)
+NOTE: t-statistics = (observation - sample mean)/standard error
+effects	estimates	stderr	t-ratio
+arc	-5.252578	0.39035	0.15162	
+AinS(2.00)	0.641420	0.40301	0.14189	
+AoutS(2.00)	1.511199	0.38253	0.16658	
+A2P-TDU(2.00)	-0.089775	0.27849	0.16930	
+datamen_receiver	0.005610	0.00447	0.10904	
+
+
+Estimated Covariance Matrix
+0.152375	-0.055266	-0.099375	0.019726	-0.000473	
+-0.055266	0.162413	0.029949	-0.072822	-0.000569	
+-0.099375	0.029949	0.146329	-0.065617	0.000210	
+0.019726	-0.072822	-0.065617	0.077555	0.000099	
+-0.000473	-0.000569	0.000210	0.000099	0.000020	
+
+
+
+STOCHASTIC APPROXIMATION RUN 4
+
+original statistics:28.000000	17.375000	24.751953	29.000000	818.000000	
+starting parameters:-5.252578	0.641420	1.511199	-0.089775	0.005610	
+Phase1 started with the following setup:
+a = 0.010000
+num of steps = 22
+num of iterations in each step = 279.615912
+************************************
+mean statistics in phase1:42.590909	30.007813	40.227850	48.304924	1341.954545	
+END PHASE1 parameter:-5.252578	0.641420	1.511199	-0.089775	0.005610	
+Phase 2 started
+
+
+Subphase 0 started with a valued 0.010000
+
+Subphase 0 has gone up to 212 steps
+Parameter after Subphase 0:-4.99009	 0.59788	 1.47465	-0.16006	 0.00504	
+
+
+Subphase 1 started with a valued 0.010000
+
+Subphase 1 has gone up to 231 steps
+Parameter after Subphase 1:-5.30440	 0.70947	 1.54915	-0.15147	 0.00621	
+
+
+Subphase 2 started with a valued 0.005000
+
+Subphase 2 has gone up to 277 steps
+Parameter after Subphase 2:-5.27841	 0.62816	 1.54681	-0.11356	 0.00593	
+
+
+Subphase 3 started with a valued 0.002500
+
+Subphase 3 has gone up to 392 steps
+Parameter after Subphase 3:-5.19271	 0.63447	 1.53417	-0.14605	 0.00587	
+
+
+Subphase 4 started with a valued 0.001250
+
+Subphase 4 has gone up to 684 steps
+Parameter after Subphase 4:-5.21941	 0.62062	 1.52890	-0.11253	 0.00565	
+END PHASE2 parameter:-5.219406	0.620620	1.528899	-0.112526	0.005655	
+Phase3 started with the following setup:
+num of steps = 500
+num of iterations in each step = 279.615912
+***************************************
+mean statistics in phase3:25.200000	14.269766	21.159590	23.779771	726.516000	
+
+Estimation Result for Network SUMMARY (parameter, standard error, t-statistics)
+NOTE: t-statistics = (observation - sample mean)/standard error
+effects	estimates	stderr	t-ratio
+arc	-5.219406	0.41565	0.19137	
+AinS(2.00)	0.620620	0.40825	0.23075	
+AoutS(2.00)	1.528899	0.38810	0.21213	
+A2P-TDU(2.00)	-0.112526	0.25431	0.22316	
+datamen_receiver	0.005655	0.00455	0.18500	
+
+
+Estimated Covariance Matrix
+0.172762	-0.063036	-0.106956	0.018254	-0.000626	
+-0.063036	0.166671	0.019073	-0.061024	-0.000446	
+-0.106956	0.019073	0.150618	-0.057674	0.000267	
+0.018254	-0.061024	-0.057674	0.064673	0.000067	
+-0.000626	-0.000446	0.000267	0.000067	0.000021	
+
+
+
+STOCHASTIC APPROXIMATION RUN 5
+
+original statistics:28.000000	17.375000	24.751953	29.000000	818.000000	
+starting parameters:-5.219406	0.620620	1.528899	-0.112526	0.005655	
+Phase1 started with the following setup:
+a = 0.010000
+num of steps = 22
+num of iterations in each step = 279.615912
+************************************
+mean statistics in phase1:41.045455	27.436080	38.184171	44.204545	1210.227273	
+END PHASE1 parameter:-5.219406	0.620620	1.528899	-0.112526	0.005655	
+Phase 2 started
+
+
+Subphase 0 started with a valued 0.010000
+
+Subphase 0 has gone up to 212 steps
+Parameter after Subphase 0:-5.14261	 0.55568	 1.50720	-0.09825	 0.00724	
+
+
+Subphase 1 started with a valued 0.010000
+
+Subphase 1 has gone up to 231 steps
+Parameter after Subphase 1:-5.20959	 0.62575	 1.52968	-0.15620	 0.00652	
+
+
+Subphase 2 started with a valued 0.005000
+
+Subphase 2 has gone up to 277 steps
+Parameter after Subphase 2:-5.13946	 0.58262	 1.48640	-0.09849	 0.00562	
+
+
+Subphase 3 started with a valued 0.002500
+
+Subphase 3 has gone up to 392 steps
+Parameter after Subphase 3:-5.14023	 0.61811	 1.50092	-0.12741	 0.00558	
+
+
+Subphase 4 started with a valued 0.001250
+
+Subphase 4 has gone up to 684 steps
+Parameter after Subphase 4:-5.21863	 0.60060	 1.51334	-0.08561	 0.00578	
+END PHASE2 parameter:-5.218627	0.600596	1.513337	-0.085612	0.005777	
+Phase3 started with the following setup:
+num of steps = 500
+num of iterations in each step = 279.615912
+***************************************
+mean statistics in phase3:24.620000	14.035281	20.910512	22.903396	742.134000	
+
+Estimation Result for Network SUMMARY (parameter, standard error, t-statistics)
+NOTE: t-statistics = (observation - sample mean)/standard error
+effects	estimates	stderr	t-ratio
+arc	-5.218627	0.43147	0.24187	
+AinS(2.00)	0.600596	0.40493	0.24855	
+AoutS(2.00)	1.513337	0.41786	0.22390	
+A2P-TDU(2.00)	-0.085612	0.31968	0.26680	
+datamen_receiver	0.005777	0.00418	0.16262	
+
+
+Estimated Covariance Matrix
+0.186163	-0.072452	-0.110481	0.019767	-0.000424	
+-0.072452	0.163965	0.050748	-0.082129	-0.000388	
+-0.110481	0.050748	0.174606	-0.092244	-0.000017	
+0.019767	-0.082129	-0.092244	0.102197	0.000195	
+-0.000424	-0.000388	-0.000017	0.000195	0.000017	
+
+
+
+STOCHASTIC APPROXIMATION RUN 6
+
+original statistics:28.000000	17.375000	24.751953	29.000000	818.000000	
+starting parameters:-5.218627	0.600596	1.513337	-0.085612	0.005777	
+Phase1 started with the following setup:
+a = 0.010000
+num of steps = 22
+num of iterations in each step = 279.615912
+************************************
+mean statistics in phase1:28.454545	14.438920	26.017090	27.987689	707.363636	
+END PHASE1 parameter:-5.218627	0.600596	1.513337	-0.085612	0.005777	
+Phase 2 started
+
+
+Subphase 0 started with a valued 0.010000
+
+Subphase 0 has gone up to 212 steps
+Parameter after Subphase 0:-4.79794	 0.59966	 1.61233	-0.29288	 0.00112	
+
+
+Subphase 1 started with a valued 0.010000
+
+Subphase 1 has gone up to 231 steps
+Parameter after Subphase 1:-5.28456	 0.64286	 1.53505	-0.10704	 0.00511	
+
+
+Subphase 2 started with a valued 0.005000
+
+Subphase 2 has gone up to 277 steps
+Parameter after Subphase 2:-5.36504	 0.58435	 1.59378	-0.08966	 0.00492	
+
+
+Subphase 3 started with a valued 0.002500
+
+Subphase 3 has gone up to 392 steps
+Parameter after Subphase 3:-5.21270	 0.62232	 1.51830	-0.08080	 0.00433	
+
+
+Subphase 4 started with a valued 0.001250
+
+Subphase 4 has gone up to 684 steps
+Parameter after Subphase 4:-5.33018	 0.63887	 1.54610	-0.08861	 0.00539	
+END PHASE2 parameter:-5.330184	0.638871	1.546104	-0.088612	0.005390	
+Phase3 started with the following setup:
+num of steps = 500
+num of iterations in each step = 279.615912
+***************************************
+mean statistics in phase3:18.454000	8.732156	14.036398	14.246125	540.734000	
+
+Estimation Result for Network SUMMARY (parameter, standard error, t-statistics)
+NOTE: t-statistics = (observation - sample mean)/standard error
+effects	estimates	stderr	t-ratio
+arc	-5.330184	0.44191	0.84716	
+AinS(2.00)	0.638871	0.44313	0.89749	
+AoutS(2.00)	1.546104	0.46779	0.83039	
+A2P-TDU(2.00)	-0.088612	0.38664	0.92808	
+datamen_receiver	0.005390	0.00468	0.71541	
+
+
+Estimated Covariance Matrix
+0.195282	-0.075296	-0.121291	0.019871	-0.000646	
+-0.075296	0.196364	0.063263	-0.106332	-0.000387	
+-0.121291	0.063263	0.218828	-0.128234	-0.000001	
+0.019871	-0.106332	-0.128234	0.149488	0.000252	
+-0.000646	-0.000387	-0.000001	0.000252	0.000022	
+
+
+
+STOCHASTIC APPROXIMATION RUN 7
+
+original statistics:28.000000	17.375000	24.751953	29.000000	818.000000	
+starting parameters:-5.330184	0.638871	1.546104	-0.088612	0.005390	
+Phase1 started with the following setup:
+a = 0.010000
+num of steps = 22
+num of iterations in each step = 279.615912
+************************************
+mean statistics in phase1:24.181818	11.779830	22.151678	22.102273	577.909091	
+END PHASE1 parameter:-5.330184	0.638871	1.546104	-0.088612	0.005390	
+Phase 2 started
+
+
+Subphase 0 started with a valued 0.010000
+
+Subphase 0 has gone up to 212 steps
+Parameter after Subphase 0:-5.20970	 0.73539	 1.54426	-0.12996	 0.00426	
+
+
+Subphase 1 started with a valued 0.010000
+
+Subphase 1 has gone up to 231 steps
+Parameter after Subphase 1:-5.42003	 0.70565	 1.58053	-0.10495	 0.00561	
+
+
+Subphase 2 started with a valued 0.005000
+
+Subphase 2 has gone up to 277 steps
+Parameter after Subphase 2:-5.21655	 0.57529	 1.55828	-0.10389	 0.00499	
+
+
+Subphase 3 started with a valued 0.002500
+
+Subphase 3 has gone up to 392 steps
+Parameter after Subphase 3:-5.38206	 0.66106	 1.54475	-0.04880	 0.00548	
+
+
+Subphase 4 started with a valued 0.001250
+
+Subphase 4 has gone up to 684 steps
+Parameter after Subphase 4:-5.30198	 0.63035	 1.54941	-0.10042	 0.00530	
+END PHASE2 parameter:-5.301976	0.630352	1.549407	-0.100420	0.005302	
+Phase3 started with the following setup:
+num of steps = 500
+num of iterations in each step = 279.615912
+***************************************
+mean statistics in phase3:18.356000	8.534094	13.877055	13.916292	528.052000	
+
+Estimation Result for Network SUMMARY (parameter, standard error, t-statistics)
+NOTE: t-statistics = (observation - sample mean)/standard error
+effects	estimates	stderr	t-ratio
+arc	-5.301976	0.44766	0.87312	
+AinS(2.00)	0.630352	0.44618	0.93493	
+AoutS(2.00)	1.549407	0.48904	0.85688	
+A2P-TDU(2.00)	-0.100420	0.40400	0.97177	
+datamen_receiver	0.005302	0.00481	0.77817	
+
+
+Estimated Covariance Matrix
+0.200396	-0.079065	-0.130933	0.027482	-0.000687	
+-0.079065	0.199081	0.071679	-0.113674	-0.000355	
+-0.130933	0.071679	0.239164	-0.144479	0.000011	
+0.027482	-0.113674	-0.144479	0.163212	0.000239	
+-0.000687	-0.000355	0.000011	0.000239	0.000023	
+
+
+
+STOCHASTIC APPROXIMATION RUN 8
+
+original statistics:28.000000	17.375000	24.751953	29.000000	818.000000	
+starting parameters:-5.301976	0.630352	1.549407	-0.100420	0.005302	
+Phase1 started with the following setup:
+a = 0.010000
+num of steps = 22
+num of iterations in each step = 279.615912
+************************************
+mean statistics in phase1:24.863636	12.234375	23.032005	22.882576	595.318182	
+END PHASE1 parameter:-5.301976	0.630352	1.549407	-0.100420	0.005302	
+Phase 2 started
+
+
+Subphase 0 started with a valued 0.010000
+
+Subphase 0 has gone up to 212 steps
+Parameter after Subphase 0:-4.93488	 0.62084	 1.47957	-0.10573	 0.00117	
+
+
+Subphase 1 started with a valued 0.010000
+
+Subphase 1 has gone up to 231 steps
+Parameter after Subphase 1:-5.42573	 0.71165	 1.54804	-0.09464	 0.00505	
+
+
+Subphase 2 started with a valued 0.005000
+
+Subphase 2 has gone up to 277 steps
+Parameter after Subphase 2:-5.28238	 0.61268	 1.54628	-0.07976	 0.00395	
+
+
+Subphase 3 started with a valued 0.002500
+
+Subphase 3 has gone up to 392 steps
+Parameter after Subphase 3:-5.36580	 0.68555	 1.53977	-0.06264	 0.00487	
+
+
+Subphase 4 started with a valued 0.001250
+
+Subphase 4 has gone up to 684 steps
+Parameter after Subphase 4:-5.33080	 0.66304	 1.55085	-0.09897	 0.00521	
+END PHASE2 parameter:-5.330798	0.663036	1.550845	-0.098974	0.005211	
+Phase3 started with the following setup:
+num of steps = 500
+num of iterations in each step = 279.615912
+***************************************
+mean statistics in phase3:17.808000	8.562750	13.532463	13.805917	511.830000	
+
+Estimation Result for Network SUMMARY (parameter, standard error, t-statistics)
+NOTE: t-statistics = (observation - sample mean)/standard error
+effects	estimates	stderr	t-ratio
+arc	-5.330798	0.42631	0.85496	
+AinS(2.00)	0.663036	0.42672	0.85053	
+AoutS(2.00)	1.550845	0.47956	0.83192	
+A2P-TDU(2.00)	-0.098974	0.39093	0.90838	
+datamen_receiver	0.005211	0.00474	0.75958	
+
+
+Estimated Covariance Matrix
+0.181736	-0.067414	-0.118626	0.022641	-0.000666	
+-0.067414	0.182086	0.062472	-0.104490	-0.000407	
+-0.118626	0.062472	0.229977	-0.137016	-0.000059	
+0.022641	-0.104490	-0.137016	0.152826	0.000319	
+-0.000666	-0.000407	-0.000059	0.000319	0.000022	
+
+
+
+STOCHASTIC APPROXIMATION RUN 9
+
+original statistics:28.000000	17.375000	24.751953	29.000000	818.000000	
+starting parameters:-5.330798	0.663036	1.550845	-0.098974	0.005211	
+Phase1 started with the following setup:
+a = 0.010000
+num of steps = 22
+num of iterations in each step = 279.615912
+************************************
+mean statistics in phase1:24.181818	11.779830	22.151678	22.102273	577.909091	
+END PHASE1 parameter:-5.330798	0.663036	1.550845	-0.098974	0.005211	
+Phase 2 started
+
+
+Subphase 0 started with a valued 0.010000
+
+Subphase 0 has gone up to 212 steps
+Parameter after Subphase 0:-5.09713	 0.60535	 1.48420	-0.09318	 0.00574	
+
+
+Subphase 1 started with a valued 0.010000
+
+Subphase 1 has gone up to 231 steps
+Parameter after Subphase 1:-5.41514	 0.69413	 1.56689	-0.06668	 0.00575	
+
+
+Subphase 2 started with a valued 0.005000
+
+Subphase 2 has gone up to 277 steps
+Parameter after Subphase 2:-5.37649	 0.61656	 1.60433	-0.08928	 0.00526	
+
+
+Subphase 3 started with a valued 0.002500
+
+Subphase 3 has gone up to 392 steps
+Parameter after Subphase 3:-5.36257	 0.66615	 1.54839	-0.05349	 0.00495	
+
+
+Subphase 4 started with a valued 0.001250
+
+Subphase 4 has gone up to 684 steps
+Parameter after Subphase 4:-5.29353	 0.63406	 1.55932	-0.11376	 0.00514	
+END PHASE2 parameter:-5.293526	0.634062	1.559321	-0.113757	0.005136	
+Phase3 started with the following setup:
+num of steps = 500
+num of iterations in each step = 279.615912
+***************************************
+mean statistics in phase3:29.974000	18.989203	27.196475	30.464188	871.480000	
+
+Estimation Result for Network SUMMARY (parameter, standard error, t-statistics)
+NOTE: t-statistics = (observation - sample mean)/standard error
+effects	estimates	stderr	t-ratio
+arc	-5.293526	0.40092	-0.12213	
+AinS(2.00)	0.634062	0.35665	-0.10000	
+AoutS(2.00)	1.559321	0.34536	-0.12374	
+A2P-TDU(2.00)	-0.113757	0.23585	-0.05584	
+datamen_receiver	0.005136	0.00409	-0.10412	
+
+
+Estimated Covariance Matrix
+0.160739	-0.050320	-0.084211	-0.001929	-0.000127	
+-0.050320	0.127202	0.003022	-0.041242	-0.000439	
+-0.084211	0.003022	0.119277	-0.039432	0.000004	
+-0.001929	-0.041242	-0.039432	0.055624	0.000058	
+-0.000127	-0.000439	0.000004	0.000058	0.000017	
+
+
+
+STOCHASTIC APPROXIMATION RUN 10
+
+original statistics:28.000000	17.375000	24.751953	29.000000	818.000000	
+starting parameters:-5.293526	0.634062	1.559321	-0.113757	0.005136	
+Phase1 started with the following setup:
+a = 0.010000
+num of steps = 22
+num of iterations in each step = 279.615912
+************************************
+mean statistics in phase1:37.454545	24.638494	33.392401	42.233902	1156.272727	
+END PHASE1 parameter:-5.293526	0.634062	1.559321	-0.113757	0.005136	
+Phase 2 started
+
+
+Subphase 0 started with a valued 0.010000
+
+Subphase 0 has gone up to 212 steps
+Parameter after Subphase 0:-5.05363	 0.44171	 1.44826	-0.11133	 0.00612	
+
+
+Subphase 1 started with a valued 0.010000
+
+Subphase 1 has gone up to 231 steps
+Parameter after Subphase 1:-5.36971	 0.60532	 1.53783	-0.06357	 0.00596	
+
+
+Subphase 2 started with a valued 0.005000
+
+Subphase 2 has gone up to 277 steps
+Parameter after Subphase 2:-5.26994	 0.63751	 1.51317	-0.09353	 0.00547	
+
+
+Subphase 3 started with a valued 0.002500
+
+Subphase 3 has gone up to 392 steps
+Parameter after Subphase 3:-5.37244	 0.67571	 1.50785	-0.06562	 0.00539	
+
+
+Subphase 4 started with a valued 0.001250
+
+Subphase 4 has gone up to 684 steps
+Parameter after Subphase 4:-5.33076	 0.68818	 1.52403	-0.09231	 0.00518	
+END PHASE2 parameter:-5.330761	0.688185	1.524034	-0.092310	0.005182	
+Phase3 started with the following setup:
+num of steps = 500
+num of iterations in each step = 279.615912
+***************************************
+mean statistics in phase3:32.676000	22.499861	30.306359	36.789104	949.350000	
+
+Estimation Result for Network SUMMARY (parameter, standard error, t-statistics)
+NOTE: t-statistics = (observation - sample mean)/standard error
+effects	estimates	stderr	t-ratio
+arc	-5.330761	0.36168	-0.24605	
+AinS(2.00)	0.688185	0.31738	-0.25192	
+AoutS(2.00)	1.524034	0.30027	-0.23377	
+A2P-TDU(2.00)	-0.092310	0.17846	-0.22235	
+datamen_receiver	0.005182	0.00393	-0.22389	
+
+
+Estimated Covariance Matrix
+0.130814	-0.036448	-0.071453	0.001755	-0.000177	
+-0.036448	0.100732	-0.001139	-0.033047	-0.000301	
+-0.071453	-0.001139	0.090162	-0.021025	-0.000031	
+0.001755	-0.033047	-0.021025	0.031847	0.000059	
+-0.000177	-0.000301	-0.000031	0.000059	0.000015	
+
+
+
+STOCHASTIC APPROXIMATION RUN 11
+
+original statistics:28.000000	17.375000	24.751953	29.000000	818.000000	
+starting parameters:-5.330761	0.688185	1.524034	-0.092310	0.005182	
+Phase1 started with the following setup:
+a = 0.010000
+num of steps = 22
+num of iterations in each step = 279.615912
+************************************
+mean statistics in phase1:39.318182	27.467685	36.052912	47.595644	1257.409091	
+END PHASE1 parameter:-5.330761	0.688185	1.524034	-0.092310	0.005182	
+Phase 2 started
+
+
+Subphase 0 started with a valued 0.010000
+
+Subphase 0 has gone up to 212 steps
+Parameter after Subphase 0:-4.99493	 0.37516	 1.42594	-0.09101	 0.00695	
+
+
+Subphase 1 started with a valued 0.010000
+
+Subphase 1 has gone up to 231 steps
+Parameter after Subphase 1:-5.36570	 0.58569	 1.56484	-0.07748	 0.00569	
+
+
+Subphase 2 started with a valued 0.005000
+
+Subphase 2 has gone up to 277 steps
+Parameter after Subphase 2:-5.18501	 0.59296	 1.52211	-0.12577	 0.00520	
+
+
+Subphase 3 started with a valued 0.002500
+
+Subphase 3 has gone up to 392 steps
+Parameter after Subphase 3:-5.35251	 0.65140	 1.55928	-0.09574	 0.00528	
+
+
+Subphase 4 started with a valued 0.001250
+
+Subphase 4 has gone up to 684 steps
+Parameter after Subphase 4:-5.31094	 0.67220	 1.57083	-0.12455	 0.00499	
+END PHASE2 parameter:-5.310943	0.672198	1.570831	-0.124551	0.004989	
+Phase3 started with the following setup:
+num of steps = 500
+num of iterations in each step = 279.615912
+***************************************
+mean statistics in phase3:31.672000	22.354078	29.866977	36.577156	935.204000	
+
+Estimation Result for Network SUMMARY (parameter, standard error, t-statistics)
+NOTE: t-statistics = (observation - sample mean)/standard error
+effects	estimates	stderr	t-ratio
+arc	-5.310943	0.34448	-0.16553	
+AinS(2.00)	0.672198	0.34801	-0.19314	
+AoutS(2.00)	1.570831	0.31621	-0.17867	
+A2P-TDU(2.00)	-0.124551	0.16352	-0.16869	
+datamen_receiver	0.004989	0.00430	-0.17134	
+
+
+Estimated Covariance Matrix
+0.118667	-0.031806	-0.076977	0.010545	-0.000094	
+-0.031806	0.121111	-0.009004	-0.040094	-0.000559	
+-0.076977	-0.009004	0.099987	-0.018261	-0.000161	
+0.010545	-0.040094	-0.018261	0.026739	0.000207	
+-0.000094	-0.000559	-0.000161	0.000207	0.000019	
+
+
+
+STOCHASTIC APPROXIMATION RUN 12
+
+original statistics:28.000000	17.375000	24.751953	29.000000	818.000000	
+starting parameters:-5.310943	0.672198	1.570831	-0.124551	0.004989	
+Phase1 started with the following setup:
+a = 0.010000
+num of steps = 22
+num of iterations in each step = 279.615912
+************************************
+mean statistics in phase1:39.363636	26.823153	35.596236	46.063447	1228.954545	
+END PHASE1 parameter:-5.310943	0.672198	1.570831	-0.124551	0.004989	
+Phase 2 started
+
+
+Subphase 0 started with a valued 0.010000
+
+Subphase 0 has gone up to 212 steps
+Parameter after Subphase 0:-5.36357	 0.55805	 1.41948	 0.02671	 0.00579	
+
+
+Subphase 1 started with a valued 0.010000
+
+Subphase 1 has gone up to 231 steps
+Parameter after Subphase 1:-5.32629	 0.62868	 1.45065	-0.03873	 0.00491	
+
+
+Subphase 2 started with a valued 0.005000
+
+Subphase 2 has gone up to 277 steps
+Parameter after Subphase 2:-5.20810	 0.68577	 1.51698	-0.13865	 0.00450	
+
+
+Subphase 3 started with a valued 0.002500
+
+Subphase 3 has gone up to 392 steps
+Parameter after Subphase 3:-5.36960	 0.66226	 1.50846	-0.05485	 0.00516	
+
+
+Subphase 4 started with a valued 0.001250
+
+Subphase 4 has gone up to 684 steps
+Parameter after Subphase 4:-5.33457	 0.69233	 1.54814	-0.09900	 0.00491	
+END PHASE2 parameter:-5.334567	0.692331	1.548137	-0.098996	0.004909	
+Phase3 started with the following setup:
+num of steps = 500
+num of iterations in each step = 279.615912
+***************************************
+mean statistics in phase3:24.088000	14.385063	20.585367	23.086021	694.854000	
+
+Estimation Result for Network SUMMARY (parameter, standard error, t-statistics)
+NOTE: t-statistics = (observation - sample mean)/standard error
+effects	estimates	stderr	t-ratio
+arc	-5.334567	0.37963	0.22525	
+AinS(2.00)	0.692331	0.39880	0.16894	
+AoutS(2.00)	1.548137	0.37816	0.19061	
+A2P-TDU(2.00)	-0.098996	0.30292	0.20300	
+datamen_receiver	0.004909	0.00507	0.23208	
+
+
+Estimated Covariance Matrix
+0.144119	-0.041854	-0.066730	0.001215	-0.000653	
+-0.041854	0.159044	0.014892	-0.075458	-0.000408	
+-0.066730	0.014892	0.143006	-0.071363	-0.000295	
+0.001215	-0.075458	-0.071363	0.091762	0.000426	
+-0.000653	-0.000408	-0.000295	0.000426	0.000026	
+
+
+
+STOCHASTIC APPROXIMATION RUN 13
+
+original statistics:28.000000	17.375000	24.751953	29.000000	818.000000	
+starting parameters:-5.334567	0.692331	1.548137	-0.098996	0.004909	
+Phase1 started with the following setup:
+a = 0.010000
+num of steps = 22
+num of iterations in each step = 279.615912
+************************************
+mean statistics in phase1:22.181818	10.414773	17.644531	16.666667	802.090909	
+END PHASE1 parameter:-5.334567	0.692331	1.548137	-0.098996	0.004909	
+Phase 2 started
+
+
+Subphase 0 started with a valued 0.010000
+
+Subphase 0 has gone up to 212 steps
+Parameter after Subphase 0:-5.48835	 0.84137	 1.59437	-0.10199	 0.00633	
+
+
+Subphase 1 started with a valued 0.010000
+
+Subphase 1 has gone up to 231 steps
+Parameter after Subphase 1:-5.37244	 0.67808	 1.57721	-0.04702	 0.00448	
+
+
+Subphase 2 started with a valued 0.005000
+
+Subphase 2 has gone up to 277 steps
+Parameter after Subphase 2:-5.42935	 0.67899	 1.55359	-0.03132	 0.00516	
+
+
+Subphase 3 started with a valued 0.002500
+
+Subphase 3 has gone up to 392 steps
+Parameter after Subphase 3:-5.30597	 0.66746	 1.50747	-0.07505	 0.00523	
+
+
+Subphase 4 started with a valued 0.001250
+
+Subphase 4 has gone up to 684 steps
+Parameter after Subphase 4:-5.38815	 0.69149	 1.53311	-0.05781	 0.00519	
+END PHASE2 parameter:-5.388148	0.691488	1.533115	-0.057809	0.005186	
+Phase3 started with the following setup:
+num of steps = 500
+num of iterations in each step = 279.615912
+***************************************
+mean statistics in phase3:27.332000	18.635680	25.066658	31.049875	807.440000	
+
+Estimation Result for Network SUMMARY (parameter, standard error, t-statistics)
+NOTE: t-statistics = (observation - sample mean)/standard error
+effects	estimates	stderr	t-ratio
+arc	-5.388148	0.35289	0.03021	*
+AinS(2.00)	0.691488	0.37858	-0.05199	
+AoutS(2.00)	1.533115	0.35127	-0.01108	*
+A2P-TDU(2.00)	-0.057809	0.23436	-0.04756	
+datamen_receiver	0.005186	0.00439	0.01588	
+
+
+Estimated Covariance Matrix
+0.124533	-0.042305	-0.081973	0.021321	-0.000480	
+-0.042305	0.143325	0.023557	-0.067717	-0.000473	
+-0.081973	0.023557	0.123391	-0.049737	-0.000205	
+0.021321	-0.067717	-0.049737	0.054923	0.000375	
+-0.000480	-0.000473	-0.000205	0.000375	0.000019	
+
+
+

@@ -1,0 +1,65 @@
+﻿TRIAD CENSUS
+--------------------------------------------------------------------------------
+
+Input Network dataset:                  2master_combine_12monthsEDGELIST dichotomized0cutoff (E:\DropBox\Stats\1Thesis\1Network_analysis\Mater_combined_network_data\2_edgelist_ucinet_data\Triad census\2master_combine_12monthsEDGELIST dichotomized0cutoff)
+Output Measures:                        2master_combine_12monthsEDGELIST dichotomized0cutoff-Tri (E:\DropBox\Stats\1Thesis\1Network_analysis\Mater_combined_network_data\2_edgelist_ucinet_data\Triad census\2master_combine_12monthsEDGELIST dichotomized0cutoff-Tri)
+
+
+Triad Census for dataset 2master_combine_12monthsEDGELIST dichotomized0cutoff
+
+          2master_c
+          ---------
+  1  003    1231616
+  2  012     177990
+  3  102      91741
+  4 021D       4544
+  5 021U       8880
+  6 021C       4673
+  7 111D       7023
+  8 111U       7395
+  9 030T       1219
+ 10 030C         60
+ 11  201       4090
+ 12 120D        680
+ 13 120U        928
+ 14 120C        519
+ 15  210       1567
+ 16  300        540
+
+1. 003 = A,B,C, the empty subgraph.
+2. 012 = A->B, C, subgraph with a single directed edge.
+3. 102 = A<->B, C, the subgraph with a mutual connection between two vertices.
+4. 021D = A<-B->C, the out-star.
+5. 021U = A->B<-C, the in-star.
+6. 021C = A->B->C, directed line.
+7. 111D = A<->B<-C.
+8. 111U = A<->B->C.
+9. 030T = A->B<-C, A->C.
+10. 030C = A<-B<-C, A->C.
+11. 201 = A<->B<->C.
+12. 120D = A<-B->C, A<->C.
+13. 120U = A->B<-C, A<->C.
+14. 120C = A->B->C, A<->C.
+15. 210 = A->B<->C, A<->C.
+16. 300 = A<->B<->C, A<->C, complete subgraph.
+
+9, 12, 13, 16 are transitive
+6, 7, 8, 10, 11, 14, 15 are intransitive
+
+Transitivity
+
+                       1 
+                   ----- 
+    1 Transitivity 0.117 
+
+1 rows, 1 columns, 1 levels.
+
+
+Algorithm from: Batagelj V., Mrvar A.: A subquadratic triad census algorithm for large sparse networks with small maximum degree. Social Networks 23(2001), 237-243
+
+
+----------------------------------------
+Running time:  00:00:01
+Output generated:  12 Oct 17 10:37:32
+UCINET 6.636 Copyright (c) 1992-2017 Analytic Technologies
+

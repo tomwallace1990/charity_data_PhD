@@ -1,0 +1,98 @@
+﻿E-I INDEX
+--------------------------------------------------------------------------------
+
+Adjacency dataset:                      master 12 month combine for e-i (E:\DropBox\Stats\1Thesis\1Network_analysis\Mater_combined_network_data\2_edgelist_ucinet_data\E-I index\master 12 month combine for e-i)
+Attribute:                              "E:\DropBox\Stats\1Thesis\1Network_analysis\Mater_combined_network_data\2_edgelist_ucinet_data\E-I index\atributesALPHABETICAL" col 1
+# of Permutations:                      5000
+Random seed:                            16380
+Individual E-I scores:                  master 12 month combine for e-i-eiTEMP
+
+Warning: This procedure ignores direction of ties.
+
+********************* -1 means all the ties are internal to the group +1 means all the ties are external ******************
+
+Warning: Row Attribute vector has been recoded.
+Here is a translation table:
+
+  Old Code    New Code
+  ========    ========
+      1     =>     1
+      2     =>     2
+      3     =>     3
+      4     =>     4
+
+
+
+Density matrix
+
+               1      2      3      4
+               1      2      3      4
+          ------ ------ ------ ------
+    1  1   0.140  0.348  0.038  2.384
+    2  2   0.348  1.345  0.321 10.901
+    3  3   0.038  0.321  2.997  3.556
+    4  4   2.384 10.901  3.556       
+
+3440 ties.
+
+Whole Network Results
+
+                         1         2         3         4
+                      Freq       Pct  Possible   Density
+                 --------- --------- --------- ---------
+    1  Internal   1764.000     0.513 18104.000     0.097 ************** 51.3 interal
+    2  External   1676.000     0.487 26206.000     0.064 ************** 48.7 extenral
+    3       E-I    -88.000    -0.026  8102.000     0.183
+
+
+Max possible external ties: 26206.000
+Max possible internal ties: 18104.000
+
+E-I Index: -0.026 ********************				 Negative so internal ties over external
+Expected value for E-I index is: 0.183 *********************** 	Expected value if ties were random given the groups
+
+Max possible E-I given density & group sizes: 1.000
+Min possible E-I given density & group sizes: -1.000
+
+Re-scaled E-I index: -0.026
+
+
+Permutation Test
+Number of iterations = 5000
+
+                       1       2       3       4       5       6       7
+                     Obs     Min     Avg     Max      SD P >= Ob P <= Ob
+                 ------- ------- ------- ------- ------- ------- -------
+    1  Internal    0.513   0.338   0.409   0.511   0.022   0.000   1.000
+    2  External    0.487   0.489   0.591   0.662   0.022   1.000   0.000
+    3       E-I   -0.026  -0.022   0.183   0.324   0.043   1.000   0.000 *********** SD for E-I = 0.043 standard error of the sampling distribution of the index
+
+
+E-I Index is significant (p < 0.05)
+
+
+Group level E-I Index
+
+                 1        2        3        4
+          Internal External    Total      E-I
+          -------- -------- -------- --------
+    1  1   500.000  723.000 1223.000    0.182 *most external
+    2  2  1038.000  745.000 1783.000   -0.164 * middle but more internal
+    3  3   226.000   95.000  321.000   -0.408 * most internal
+    4  4     0.000  113.000  113.000    1.000
+
+
+Individual Level E-I Index
+
+                              1       2       3       4
+                        Interna Externa   Total     E-I
+                        ------- ------- ------- -------
+   [Redacted]
+
+Individual E-I values saved as dataset master 12 month combine for e-i-eiTEMP
+
+----------------------------------------
+Running time:  00:00:01
+Output generated:  04 Oct 17 15:57:20
+UCINET 6.636 Copyright (c) 1992-2017 Analytic Technologies
+
